@@ -10042,6 +10042,14 @@ h3 {
   font-family: "Bree Serif", serif;
 }
 
+a:visited {
+  color: #724e76;
+}
+
+.btn-primary:visited {
+  color: #fff;
+}
+
 .font-md-lg {
   font-size: 16px;
 }
@@ -10362,7 +10370,15 @@ footer {
 }
 
 footer a {
-  color: #eeeeee;
+  color: #cceadf;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e7f0d6;
 }
 
 #page-wrap {
