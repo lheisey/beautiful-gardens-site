@@ -1755,9 +1755,9 @@ var btn = $('#back-top');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 250) {
-        btn.addClass('showbtn');
+        btn.addClass('showbtn hidden-print');
     } else {
-        btn.removeClass('showbtn');
+        btn.removeClass('showbtn hidden-print');
     }
 });
 
